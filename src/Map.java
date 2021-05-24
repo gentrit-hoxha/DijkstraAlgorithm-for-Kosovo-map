@@ -14,7 +14,7 @@ public class Map extends JPanel {
       JFrame f = new JFrame();
       f.getContentPane().add(this);
       f.setTitle("Rruga Me e Shkurter"+"-Sipas Algoritmit Dijkstra");
-      f.setSize(1200, 900);
+      f.setSize(1200, 650);
       f.setVisible(true);
       f.setDefaultCloseOperation(f.EXIT_ON_CLOSE);
       

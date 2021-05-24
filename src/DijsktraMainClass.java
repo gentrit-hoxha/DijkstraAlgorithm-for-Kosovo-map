@@ -27,7 +27,7 @@ public class DijsktraMainClass {
    public static int Qyteti1;
    public static int Qyteti2;
   
-    InputLocations paneliInput = new InputLocations();
+  /* InputLocations paneliInput = new InputLocations();
 
    ActionListener ac = new ActionListener() {
          public void actionPerformed(ActionEvent actionEvent) {
@@ -42,7 +42,7 @@ public class DijsktraMainClass {
 
    public DijsktraMainClass(){
             paneliInput.submit.addActionListener(ac);
-   };
+   };*/
  
  
  
@@ -50,7 +50,7 @@ public class DijsktraMainClass {
    
        DijsktraMainClass obj= new DijsktraMainClass();
    
-        /*   while(obj.qyteti1.equals("")) {
+       /*  while(obj.qyteti1.equals("")) {
                System.out.println("running");
                   
                   
@@ -350,10 +350,10 @@ Shterpce.addNeighbor(new Edge(22,  Shterpce, Kacanik));
 		
       
           Node source = Viti       ;
-          Node target = Peje;
+         Node target = Peje;
 		
-	 //Node source = nodes.get(obj.Qyteti1);
-	  //Node target = nodes.get(obj.Qyteti2);
+	// Node source = nodes.get(obj.Qyteti1);
+	 // Node target = nodes.get(obj.Qyteti2);
 		
       long start = System.nanoTime();
       
