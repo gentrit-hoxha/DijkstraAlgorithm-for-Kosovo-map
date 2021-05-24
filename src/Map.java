@@ -28,6 +28,7 @@ public class Map extends JPanel {
       g2d.draw(new Line2D.Float(28.50f, 132.50f, 459.50f, 132.50f));
       g.setColor(Color.BLACK);
       g.drawImage(img, 0, 0, 600, 590, this);
+      
       Color bl = new Color(33, 173, 70);
       Color lg = new Color(0, 0, 0);
       g.setFont(new Font("Times New Roman", Font.BOLD,12));

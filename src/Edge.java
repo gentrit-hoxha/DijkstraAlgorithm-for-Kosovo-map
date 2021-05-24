@@ -1,4 +1,6 @@
-
+/*Kjo klase modelon lidhet mes nyjeve pra lidhjet mes qyteteve
+  pra pesha e lidhjet edhe pika e burimit dhe destinacionit
+ */
 public class Edge {
 	
 	private double weight;
@@ -19,11 +21,11 @@ public class Edge {
 		this.weight = weight;
 	}
 
-	public Node getStartVertex() {
+	public Node getStartNode() {
 		return startNode;
 	}
 
-	public void setStartVertex(Node startNode) {
+	public void setStartNode(Node startNode) {
 		this.startNode = startNode;
 	}
 

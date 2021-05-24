@@ -375,94 +375,43 @@ Shterpce.addNeighbor(new Edge(22,  Shterpce, Kacanik));
       
       
             
-        if(shortestPath.contains(Podujeve)) {n1=true;}
-      if(shortestPath.contains(Lluzhan)) {n31=true;}
-      if(shortestPath.contains(Prishtine)) n2 =true;
-      if(shortestPath.contains(Mitrovice)) n3 =true;
-      if(shortestPath.contains(Leposaviq)) n4 =true;
-      if(shortestPath.contains(Zveqan)) n5 =true;
-      if(shortestPath.contains(ZubinPotok)) n6 =true;
-      if(shortestPath.contains(Vushtrri)) n7 =true;
-      if(shortestPath.contains(Skenderaj)) n8 =true;
-      if(shortestPath.contains(Istog)) n9 =true;
-      if(shortestPath.contains(Obiliq)) n10 =true;
-      if(shortestPath.contains(Drenas)) n11 =true;
-      if(shortestPath.contains(Kamenice)) n12 =true;
-      if(shortestPath.contains(Novoberde)) n13 =true;
-      if(shortestPath.contains(FusheKosove)) n14 =true;
-      if(shortestPath.contains(Lipjan)) n15 =true;
-      if(shortestPath.contains(Malisheve)) n16 =true;
-      if(shortestPath.contains(Kline)) n17 =true;
-      if(shortestPath.contains(Peje)) n18 =true;
-      if(shortestPath.contains(Decan)) n19 =true;
-      if(shortestPath.contains(Gjakove)) n20 =true;
-      if(shortestPath.contains(Rahovec)) n21 =true;
-      if(shortestPath.contains(Prizren)) n22 =true;
-      if(shortestPath.contains(Shterpce)) n23 =true;
-      if(shortestPath.contains(Ferizaj)) n24 =true;
-      if(shortestPath.contains(Kacanik)) n25 =true;
-      if(shortestPath.contains(Viti)) n26 =true;
-      if(shortestPath.contains(Shtime)) n27 =true;
-      if(shortestPath.contains(Gjilan)) n28 =true;
-      if(shortestPath.contains(Suhareke)) n29 =true;
-      if(shortestPath.contains(Dragash)) n30 =true;
-   
-   //        if(shortestPath.contains(Lluzhan)) n31=true;
-      if(shortestPath.contains(Komoran)) n32=true;
-      if(shortestPath.contains(Junik)) n33=true;
-      if(shortestPath.contains(Rastavice)) n34=true;
-      if(shortestPath.contains(Sllatine)) n35=true;
-      if(shortestPath.contains(Duhel)) n36=true;
-      if(shortestPath.contains(Kerpimeh)) n37=true;
-      if(shortestPath.contains(Plave)) n38=true;
-      if(shortestPath.contains(Xerxe)) n39=true;
-      if(shortestPath.contains(Prevalle)) n40=true;
-      
-      if(shortestPath.contains(Leposaviq)&&shortestPath.contains(Podujeve)) {e1=true; }
-      if(shortestPath.contains(Leposaviq)&&shortestPath.contains(Zveqan)) {e2=true;}
-      if(shortestPath.contains(Zveqan)&&shortestPath.contains(Mitrovice)) {e4=true; }
-      if(shortestPath.contains(Zveqan)&&shortestPath.contains(ZubinPotok)) {e5=true;}
-      if(shortestPath.contains(Mitrovice)&&shortestPath.contains(ZubinPotok)){ e6=true;}
-      if(shortestPath.contains(Mitrovice)&&shortestPath.contains(Vushtrri)) {e7=true;}
-      if(shortestPath.contains(Mitrovice)&&shortestPath.contains(Podujeve)) {e8=true;}
-      if(shortestPath.contains(Mitrovice)&&shortestPath.contains(Skenderaj)){ e9=true;}
-      if(shortestPath.contains(ZubinPotok)&&shortestPath.contains(Skenderaj)){ e10=true;}
-      if(shortestPath.contains(ZubinPotok)&&shortestPath.contains(Istog)) {e11=true;}
-      if(shortestPath.contains(Podujeve)&&shortestPath.contains(Obiliq)) {e13=true;}
-      if(shortestPath.contains(Podujeve)&&shortestPath.contains(Vushtrri)) {e14=true;}
-      if(shortestPath.contains(Vushtrri)&&shortestPath.contains(Obiliq)) {e15 =true;}
-      if(shortestPath.contains(Vushtrri)&&shortestPath.contains(Drenas)) {e16=true;}
-      if(shortestPath.contains(Prishtine)&&shortestPath.contains(Kamenice)){ e17=true;}
-      if(shortestPath.contains(Prishtine)&&shortestPath.contains(Novoberde)){ e18=true;}
-      if(shortestPath.contains(Prishtine)&&shortestPath.contains(FusheKosove)){ e19=true;}
-      if(shortestPath.contains(Prishtine)&&shortestPath.contains(Obiliq)) {e20=true;}
-      if(shortestPath.contains(Prishtine)&&shortestPath.contains(Lipjan)) {e21=true;}
-      if(shortestPath.contains(Kamenice)&&shortestPath.contains(Novoberde)){ e22=true;}
-      if(shortestPath.contains(Kamenice)&&shortestPath.contains(Gjilan)) {e23=true;}
-      if(shortestPath.contains(Novoberde)&&shortestPath.contains(Lipjan)) {e24=true;}
-      if(shortestPath.contains(Novoberde)&&shortestPath.contains(Gjilan)) {e25=true;}
-      if(shortestPath.contains(Obiliq)&&shortestPath.contains(FusheKosove)){ e26=true;}
-      if(shortestPath.contains(Obiliq)&&shortestPath.contains(Drenas)) {e27=true;}
-      if(shortestPath.contains(FusheKosove)&&shortestPath.contains(Lipjan)) {e28=false;}
-      if(shortestPath.contains(FusheKosove)&&shortestPath.contains(Drenas)) {e29=true;}
-    //  if(shortestPath.contains(Drenas)&&shortestPath.contains(Lipjan)) {e30=true;}
-      if(shortestPath.contains(Drenas)&&shortestPath.contains(Malisheve)){ e31=true;}
-      if(shortestPath.contains(Drenas)&&shortestPath.contains(Skenderaj)) {e32=true;}
-      if(shortestPath.contains(Skenderaj)&&shortestPath.contains(Kline)){ e33=true;}
-      if(shortestPath.contains(Skenderaj)&&shortestPath.contains(Istog)) {e34=true;}
-      if(shortestPath.contains(Istog)&&shortestPath.contains(Peje)) {e35=true;}
-      if(shortestPath.contains(Istog)&&shortestPath.contains(Kline)){ e36=true;}
-      if(shortestPath.contains(Peje)&&shortestPath.contains(Decan)) {e37=true;}
-      if(shortestPath.contains(Decan)&&shortestPath.contains(Gjakove)){ e38=true;}
-      if(shortestPath.contains(Peje)&&shortestPath.contains(Kline)) {e39=true;}
-      if(shortestPath.contains(Kline)&&shortestPath.contains(Gjakove)) {e40=true;}
-      if(shortestPath.contains(Kline)&&shortestPath.contains(Malisheve)) {e41=true;}
-      if(shortestPath.contains(Malisheve)&&shortestPath.contains(Suhareke)){ e44=true;}
-      if(shortestPath.contains(Suhareke)&&shortestPath.contains(Rahovec)) {e45=true; }
-      if(shortestPath.contains(Suhareke)&&shortestPath.contains(Prizren)) {e46=true;}
+      if(shortestPath.contains(Podujeve)) {n1=true;} if(shortestPath.contains(Lluzhan)) {n31=true;} if(shortestPath.contains(Prishtine)) n2 =true;
+      if(shortestPath.contains(Mitrovice)) n3 =true; if(shortestPath.contains(Leposaviq)) n4 =true; if(shortestPath.contains(Zveqan)) n5 =true;
+      if(shortestPath.contains(ZubinPotok)) n6 =true; if(shortestPath.contains(Vushtrri)) n7 =true; if(shortestPath.contains(Skenderaj)) n8 =true;
+      if(shortestPath.contains(Istog)) n9 =true;       if(shortestPath.contains(Obiliq)) n10 =true;
+      if(shortestPath.contains(Drenas)) n11 =true;   if(shortestPath.contains(Kamenice)) n12 =true; if(shortestPath.contains(Novoberde)) n13 =true;
+      if(shortestPath.contains(FusheKosove)) n14 =true; if(shortestPath.contains(Lipjan)) n15 =true; if(shortestPath.contains(Malisheve)) n16 =true;
+      if(shortestPath.contains(Kline)) n17 =true; if(shortestPath.contains(Peje)) n18 =true; if(shortestPath.contains(Decan)) n19 =true;
+      if(shortestPath.contains(Gjakove)) n20 =true;  if(shortestPath.contains(Rahovec)) n21 =true; if(shortestPath.contains(Prizren)) n22 =true;
+      if(shortestPath.contains(Shterpce)) n23 =true; if(shortestPath.contains(Ferizaj)) n24 =true; if(shortestPath.contains(Kacanik)) n25 =true;
+      if(shortestPath.contains(Viti)) n26 =true; if(shortestPath.contains(Shtime)) n27 =true; if(shortestPath.contains(Gjilan)) n28 =true;
+      if(shortestPath.contains(Suhareke)) n29 =true; if(shortestPath.contains(Dragash)) n30 =true; //        if(shortestPath.contains(Lluzhan)) n31=true;
+      if(shortestPath.contains(Komoran)) n32=true; if(shortestPath.contains(Junik)) n33=true; if(shortestPath.contains(Rastavice)) n34=true;
+      if(shortestPath.contains(Sllatine)) n35=true;  if(shortestPath.contains(Duhel)) n36=true; if(shortestPath.contains(Kerpimeh)) n37=true;
+      if(shortestPath.contains(Plave)) n38=true;  if(shortestPath.contains(Xerxe)) n39=true; if(shortestPath.contains(Prevalle)) n40=true;   
+      if(shortestPath.contains(Leposaviq)&&shortestPath.contains(Podujeve)) {e1=true; } if(shortestPath.contains(Leposaviq)&&shortestPath.contains(Zveqan)) {e2=true;}
+      if(shortestPath.contains(Zveqan)&&shortestPath.contains(Mitrovice)) {e4=true; } if(shortestPath.contains(Zveqan)&&shortestPath.contains(ZubinPotok)) {e5=true;}
+      if(shortestPath.contains(Mitrovice)&&shortestPath.contains(ZubinPotok)){ e6=true;} if(shortestPath.contains(Mitrovice)&&shortestPath.contains(Vushtrri)) {e7=true;}
+      if(shortestPath.contains(Mitrovice)&&shortestPath.contains(Podujeve)) {e8=true;} if(shortestPath.contains(Mitrovice)&&shortestPath.contains(Skenderaj)){ e9=true;}
+      if(shortestPath.contains(ZubinPotok)&&shortestPath.contains(Skenderaj)){ e10=true;} if(shortestPath.contains(ZubinPotok)&&shortestPath.contains(Istog)) {e11=true;}
+      if(shortestPath.contains(Podujeve)&&shortestPath.contains(Obiliq)) {e13=true;} if(shortestPath.contains(Podujeve)&&shortestPath.contains(Vushtrri)) {e14=true;}
+      if(shortestPath.contains(Vushtrri)&&shortestPath.contains(Obiliq)) {e15 =true;} if(shortestPath.contains(Vushtrri)&&shortestPath.contains(Drenas)) {e16=true;}
+      if(shortestPath.contains(Prishtine)&&shortestPath.contains(Kamenice)){ e17=true;} if(shortestPath.contains(Prishtine)&&shortestPath.contains(Novoberde)){ e18=true;}
+      if(shortestPath.contains(Prishtine)&&shortestPath.contains(FusheKosove)){ e19=true;}  if(shortestPath.contains(Prishtine)&&shortestPath.contains(Obiliq)) {e20=true;}
+      if(shortestPath.contains(Prishtine)&&shortestPath.contains(Lipjan)) {e21=true;} if(shortestPath.contains(Kamenice)&&shortestPath.contains(Novoberde)){ e22=true;}
+      if(shortestPath.contains(Kamenice)&&shortestPath.contains(Gjilan)) {e23=true;} if(shortestPath.contains(Novoberde)&&shortestPath.contains(Lipjan)) {e24=true;}
+      if(shortestPath.contains(Novoberde)&&shortestPath.contains(Gjilan)) {e25=true;} if(shortestPath.contains(Obiliq)&&shortestPath.contains(FusheKosove)){ e26=true;}
+      if(shortestPath.contains(Obiliq)&&shortestPath.contains(Drenas)) {e27=true;} if(shortestPath.contains(FusheKosove)&&shortestPath.contains(Lipjan)) {e28=false;}
+      if(shortestPath.contains(FusheKosove)&&shortestPath.contains(Drenas)) {e29=true;} //  if(shortestPath.contains(Drenas)&&shortestPath.contains(Lipjan)) {e30=true;}
+      if(shortestPath.contains(Drenas)&&shortestPath.contains(Malisheve)){ e31=true;}  if(shortestPath.contains(Drenas)&&shortestPath.contains(Skenderaj)) {e32=true;}
+      if(shortestPath.contains(Skenderaj)&&shortestPath.contains(Kline)){ e33=true;} if(shortestPath.contains(Skenderaj)&&shortestPath.contains(Istog)) {e34=true;}
+      if(shortestPath.contains(Istog)&&shortestPath.contains(Peje)) {e35=true;} if(shortestPath.contains(Istog)&&shortestPath.contains(Kline)){ e36=true;}
+      if(shortestPath.contains(Peje)&&shortestPath.contains(Decan)) {e37=true;} if(shortestPath.contains(Decan)&&shortestPath.contains(Gjakove)){ e38=true;}
+      if(shortestPath.contains(Peje)&&shortestPath.contains(Kline)) {e39=true;} if(shortestPath.contains(Kline)&&shortestPath.contains(Gjakove)) {e40=true;}
+      if(shortestPath.contains(Kline)&&shortestPath.contains(Malisheve)) {e41=true;} if(shortestPath.contains(Malisheve)&&shortestPath.contains(Suhareke)){ e44=true;}
+      if(shortestPath.contains(Suhareke)&&shortestPath.contains(Rahovec)) {e45=true; } if(shortestPath.contains(Suhareke)&&shortestPath.contains(Prizren)) {e46=true;}
       //if(shortestPath.contains(Suhareke)&&shortestPath.contains(Ferizaj)) {e48=true;}
-      if(shortestPath.contains(Suhareke)&&shortestPath.contains(Shterpce)) {e49=true;}
-      if(shortestPath.contains(Shterpce)&&shortestPath.contains(Ferizaj)) {e53=true;}
+      if(shortestPath.contains(Suhareke)&&shortestPath.contains(Shterpce)) {e49=true;} if(shortestPath.contains(Shterpce)&&shortestPath.contains(Ferizaj)) {e53=true;}
       if(shortestPath.contains(Shterpce)&&shortestPath.contains(Kacanik)) {e54=true;}
       if(shortestPath.contains(Kacanik)&&shortestPath.contains(Ferizaj)) {e55=true;}
       if(shortestPath.contains(Kacanik)&&shortestPath.contains(Viti)) {e56=true;}
@@ -508,11 +457,10 @@ Shterpce.addNeighbor(new Edge(22,  Shterpce, Kacanik));
     
     //  System.out.println(nodes.get(1).data.equals("Prishtine"));
       
-	System.out.println(shortestPath.contains(Viti)&&shortestPath.contains(Ferizaj)&&shortestPath.contains(Suhareke)&&shortestPath.contains(Rahovec));
+	
 	}
    
-   
-   
+   /**--- Algoritmet per implementimin e Dijktras*/  
    public static void computePath(Node sourceNode) {
 		
 		sourceNode.setDistance(0); //Setting distance to itself as zero
